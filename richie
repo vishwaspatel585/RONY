@@ -1,0 +1,17 @@
+cn=input('enter name=')
+units=eval(input('no of units='))
+delch=50
+if units>500:
+    charges=300+delch
+elif units>100 and units<200:
+    charges=500+delch
+elif units>200 and units<300:
+    charges=650+delch
+elif units>300 and units<500:3
+
+    charges=800+delch
+else :
+    charges=0+delch
+print ('customer name',cn)
+print('no of units consume',units)
+print ('charges',delch)
