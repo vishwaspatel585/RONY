@@ -1,5 +1,5 @@
-cn=input('enter name=')
-units=eval(input('no of units='))
+cn=input('enter name')
+units=eval(input('no of units'))
 delch=50
 if units>500:
     charges=300+delch
